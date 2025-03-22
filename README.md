@@ -1,4 +1,4 @@
-Simple project made by ReactJS NodeJS ExrpessJS and mySQL on phpmyadmin for my eassay at school.
+Simple project made by ReactJS NodeJS ExrpessJS and mySQL on phpmyadmin for my essay at school.
 
 We have created a simple database on which be performing CRUD operations.
 
