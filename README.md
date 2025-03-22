@@ -14,6 +14,4 @@ Including 5 main functions:
 
 5: Notice-Reminder
 
-6: Report-Analysis
-
 This is my first ReactJS project, and I am using it to submit a significant exercise to complete my university course. Additionally, I plan to develop it into a commercial version and add it to my CV.
