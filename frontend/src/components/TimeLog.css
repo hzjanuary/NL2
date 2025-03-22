@@ -1,0 +1,138 @@
+/* src/components/TimeLog.css */
+.time-log-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.time-log-container h2,
+.time-log-container h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.time-log-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.time-log-form select,
+.time-log-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.time-log-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.time-log-form button:hover {
+    background-color: #218838;
+}
+
+.time-log-list {
+    list-style: none;
+    padding: 0;
+}
+
+.time-log-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.time-log-item:hover {
+    background-color: #f0f0f0;
+}
+
+.time-log-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.edit-time-log-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.edit-time-log-container h3 {
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+    color: white;
+    margin-top: 10px;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.no-data {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+}
